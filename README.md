@@ -19,4 +19,5 @@ The purpose of the system is to maintain a stable temperature in a greenhouse in
 To simulate a temperature change, you should make a heating resistance connected to a command relay that will start to heat when it is connected to a supply. 
 
 ![HEAT_RESISTANCE](heating_resistor.jpeg)
-A LED is also added to the heating assembly which will be off when the sensor detects a temperature higher than the desired one and on when the temperature must reach that temperature. To display the monitored temperature, a seven-segment display is used. 
+
+A LED is also added to the heating assembly which will be __off__ when the sensor detects a temperature higher than the desired one and __on__ when the temperature must reach that temperature. To display the monitored temperature, a seven-segment display is used. If you want find a detailed description of it, click [here]: https://github.com/IoanaBraslasu/Temperature-monitoring-system-/blob/main/seven-segment%20display%20info.pdf.
