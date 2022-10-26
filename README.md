@@ -41,7 +41,7 @@ These 2 bytes are next-up converted into the temperature in degrees Celsius usin
 ![TEMPERATURE_FORMULA](temperature_formula.png)
 
 ```C++
-      
+  if (temp>=30)    
   {
     digitalWrite(relay,HIGH);
 
