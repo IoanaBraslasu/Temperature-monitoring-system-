@@ -40,6 +40,22 @@ These 2 bytes are next-up converted into the temperature in degrees Celsius usin
 
 ![TEMPERATURE_FORMULA](temperature_formula.png)
 
-![MAX_TEMP](C:\Users\ioana\Downloads\tmp_max.png)
+```C++
+      
+  {
+    digitalWrite(relay,HIGH);
+
+  }
+
+  for( int i = 0; i <150; i = i++)
+  {
+  disp(temp2,Rez1);   //display digit 1 (most left)
+  delay(10);
+  digitalWrite(Rez1, LOW);
+  disp(temp1, Rez2);   // display digit 2 (second most left)
+  delay(10);
+  digitalWrite(Rez2, LOW);
+  }
+```
 
 
