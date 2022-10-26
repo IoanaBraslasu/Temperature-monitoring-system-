@@ -35,8 +35,11 @@ This sensor works in 2 different modes: __Hold Masters__ and __No Hold Master__.
 
 ## Temperature Display
 In the end, the 2 bytes are requested from the sensor that you need to read the temperature and if they are available, they can be displayed it on the 7-segment display.
+
 These 2 bytes are next-up converted into the temperature in degrees Celsius using the formula from the datasheet and we store this value in the __temp__ variable:
 
 ![TEMPERATURE_FORMULA](temperature_formula.png)
+
+![MAX_TEMP](C:\Users\ioana\Downloads\tmp_max.png)
 
 
