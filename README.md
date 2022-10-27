@@ -31,7 +31,7 @@ hexadecimal value 0X40 and the temperature value is extracted from the internal 
 
 This sensor works in 2 different modes: __Hold Masters__ and __No Hold Master__.The Hold Master mode is needed for this project and has the address 0xE3 as is the table below.  In the Hold Master mode, the HTU21D sensor pulls down the SCK line while measuring to force the master into a wait state. By releasing the SCK line, the HTU21D sensor indicates that internal processing is complete, and the transmission may be continued.
 
-![TABLE_MASTER](hold_master_address.png)
+![TABLE_MASTER](hold_master.png)
 
 ## Temperature Display
 In the end, the 2 bytes are requested from the sensor that you need to read the temperature and if they are available, they can be displayed it on the 7-segment display.
