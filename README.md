@@ -13,9 +13,7 @@ This project aims to design a greenhouse temperature monitoring and control syst
 * Intel Galileo gen 2 board
 
 ## Software resources:
-* Arduino.exe
-
-
+* Arduino.exe\\
 
 ## Why do you need this project?
 The purpose of the system is to maintain a stable temperature in a greenhouse in a certain temperature interval. 
